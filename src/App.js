@@ -21,7 +21,7 @@ function App() {
         <div>
           {/*                     <Link to="/" className="btn btn-dark">
             Inicio
-          </Link>
+          </Link> 
                      <Link to="/bla" className="btn btn-dark">
             Bla bla bla
           </Link>
@@ -36,7 +36,7 @@ function App() {
         </div>
         <Switch>
           {/*             <Route path="/" exact>
-           <Bot />
+           <Bot /> 
           </Route>
                     <Route path="/bla">
             <Buttons />
