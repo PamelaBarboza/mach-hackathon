@@ -4,41 +4,51 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  NavLink,
+/*   Link ,
+ NavLink,  */
 } from "react-router-dom";
 
-import Bot from "./components/bot/Bot";
-import Buttons from "./components/buttons/Buttons";
+/* import Bot from "./components/bot/Bot"; */
+/* import Buttons from "./components/buttons/Buttons"; */
 import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import Wins from "./components/win/Wins";
 
 function App() {
   return (
     <Router>
-      <div className="container mt-5">
-        <div className="btn-group">
-          <Link to="/" className="btn btn-dark">
+      <div>
+        <div>
+          {/*                     <Link to="/" className="btn btn-dark">
             Inicio
-          </Link>
-          <Link to="/bla" className="btn btn-dark">
+          </Link> 
+                     <Link to="/bla" className="btn btn-dark">
             Bla bla bla
           </Link>
-          <NavLink
+                     <NavLink
             to="/users"
             className="btn btn-dark"
             activeClassName="active"
           ></NavLink>
+                    <Link to="/home">
+            
+          </Link>  */}
         </div>
-        <hr />
         <Switch>
-          <Route path="/" exact>
-            <Bot />
+          {/*             <Route path="/" exact>
+           <Bot /> 
           </Route>
-          <Route path="/bla">
+                    <Route path="/bla">
             <Buttons />
-          </Route>
-          <Route path="/users/:id" exact>
+          </Route> */}
+          {/*   <Route path="/header"></Route> */}
+          <Route path="/home" exact>
             <Header />
+            <Home />
+          </Route>
+
+          <Route path="/win">
+            <Wins />
           </Route>
         </Switch>
       </div>
