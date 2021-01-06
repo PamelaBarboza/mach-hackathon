@@ -23,7 +23,6 @@ import Header from "./components/header/Header";
 import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
 import Benefits from "./components/benefits/Benefits";
 
-
 function App() {
   return (
     <Router>
@@ -59,6 +58,14 @@ function App() {
           </Route>
           <Route path="/benefits" exact>
             <Benefits />
+          </Route>
+          <Route path="/home" exact>
+            <Header />
+            <Home />
+          </Route>
+
+          <Route path="/win">
+            <Wins />
           </Route>
         </Switch>
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./wins.css";
 import nivel from "../../img/nivel1.png";
 
+
 import Carousel from "../carousel/Carousel";
 import CarouselTwo from "../../components/carousel/CarouselTwo";
 
@@ -344,6 +345,7 @@ const Wins = () => {
             <p className="textocoint">Tus Machpoints</p>
           </div>
         </div>
+
       </div>
       <br />
       <div className="level">
@@ -1201,3 +1203,4 @@ const Wins = () => {
 };
 
 export default Wins;
+
