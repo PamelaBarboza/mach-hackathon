@@ -1,0 +1,9 @@
+
+.category img {
+  width: 142px;
+  height: 176px;
+}
+
+.slick-next {
+    display: none !important;
+}
