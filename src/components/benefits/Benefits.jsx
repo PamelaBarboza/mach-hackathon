@@ -36,9 +36,8 @@ const Benefits = () => {
           <option value="lo espejo">Entretenimiento</option>
           <option value="estación central">Servicios</option>
         </select>
-        <div>
-          <BenefitsCar products={catalogue} key="list" />
-        </div>
+
+        <BenefitsCar products={catalogue} key="list" />
       </div>
     </div>
   );

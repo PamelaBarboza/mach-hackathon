@@ -19,7 +19,7 @@ import Benefits from "./components/benefits/Benefits";
 function App() {
   return (
     <Router>
-      <div className="container mt-5">
+      <div>
         <Switch>
           <Route path="/" exact>
             <Bot1 />
