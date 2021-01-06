@@ -1,0 +1,75 @@
+#root{
+    background: #F6F6F6;
+}
+
+.container-benefits{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-benefits>button{
+    height: 56px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    color: #6200EE;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin: 2%;
+}
+
+.container-benefits>button>svg{
+    font-size: 24px;
+    margin: 0 2% 1% 2%;
+}
+
+.container-benefits>select{
+    height: 56px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    color: #5C5C5C;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin: 2%;
+}
+
+.container-benefits>div>div{
+    display: flex;
+    background-color: #ffffff;
+    margin: 5% 2%;
+    border-radius: 10px;
+}
+
+.container-benefits>div>div>img{
+    margin: 4% 0;
+}
+
+.container-benefits>div>div>div{
+    margin: 5% 2% 0 4%;
+}
+
+.container-benefits>div>div>div>h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #5C5C5C;
+}
+
+.container-benefits>div>div>div>p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #111111;
+}
+
+.container-benefits>div>div>div>p:nth-child(3){
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9B55FF;
+
+}
