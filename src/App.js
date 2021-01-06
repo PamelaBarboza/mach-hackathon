@@ -4,43 +4,60 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  NavLink,
+  /*   Link ,
+ NavLink,  */
 } from "react-router-dom";
 
-import Bot from "./components/bot/Bot";
-import Buttons from "./components/buttons/Buttons";
-import Header from "./components/header/Header";
+
+/* import Bot from "./components/bot/Bot"; */
+/* import Buttons from "./components/buttons/Buttons"; */
+
 import Home from "./components/home/Home";
 import Wins from "./components/win/Wins";
+import HomeGoals from "./components/homeGoals/HomeGoals";
+import Bot1 from "./components/bot/Bot1";
+import Bot2 from "./components/bot/Bot2";
+import Bot3 from "./components/bot/Bot3";
+import Buttons from "./components/buttons/Buttons";
+import Header from "./components/header/Header";
+import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
+import Benefits from "./components/benefits/Benefits";
 
 function App() {
   return (
     <Router>
-      <div className="container mt-5">
-        <div className="btn-group">
-          <Link to="/home" className="btn btn-dark">
-            Inicio
-          </Link>
-          <Link to="/bla" className="btn btn-dark">
-            Bla bla bla
-          </Link>
-          <NavLink
-            to="/users"
-            className="btn btn-dark"
-            activeClassName="active"
-          ></NavLink>
-        </div>
-        <hr />
+      <div>
         <Switch>
           <Route path="/" exact>
-            <Bot />
+            <Bot1 />
           </Route>
-          <Route path="/bla">
-            <Buttons />
+          <Route path="/bot2" exact>
+            <Bot2 />
           </Route>
-          <Route path="/users/:id" exact>
+          <Route path="/bot3" exact>
+            <Bot3 />
+          </Route>
+          <Route path="/home" exact>
             <Header />
+            <Home />
+          </Route>
+          <Route path="/win" exact>
+            <Wins />
+          </Route>
+          <Route path="/homeGoals" exact>
+            <HomeGoals />
+          </Route>
+          <Route path="/youFirstGoals" exact>
+            <YouFirstGoals />
+          </Route>
+          <Route path="/youFirstGoals" exact>
+            <YouFirstGoals />
+          </Route>
+          <Route path="/benefitsDetail" exact>
+            <BenefitsDetail />
+          </Route>
+          <Route path="/benefits" exact>
+            <Benefits />
           </Route>
           <Route path="/home" exact>
             <Header />
