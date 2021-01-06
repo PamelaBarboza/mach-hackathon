@@ -30,6 +30,22 @@ function App() {
           <Route path="/bot3" exact>
             <Bot3 />
           </Route>
+          <Route path="/home" exact>
+            <Header />
+            <Home />
+          </Route>
+          <Route path="/win" exact>
+            <Wins />
+          </Route>
+          <Route path="/homeGoals" exact>
+            <HomeGoals />
+          </Route>
+          <Route path="/youFirstGoals" exact>
+            <YouFirstGoals />
+          </Route>
+          <Route path="/youFirstGoals" exact>
+            <YouFirstGoals />
+          </Route>
           <Route path="/benefitsDetail" exact>
             <BenefitsDetail />
           </Route>
