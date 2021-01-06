@@ -2,7 +2,6 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import closeIcon from "@iconify-icons/grommet-icons/close";
 import "./benefitsDetail.css";
-//import movistarLogo from "../../media/movistar.png";
 
 const BenefitsDetail = (props) => {
   return (

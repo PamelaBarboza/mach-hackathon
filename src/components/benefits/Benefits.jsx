@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./benefits.css";
 import movistarLogo from "../../media/movistar.png";
 import houseLogo from "../../media/house.png";
@@ -10,18 +10,16 @@ import nikLogo from "../../media/nik.png";
 import donutsLogo from "../../media/donuts.png";
 import { Icon } from "@iconify/react";
 import bxMap from "@iconify-icons/bx/bx-map";
-import BenefitsDetail from "../benefitsDetail/BenefitsDetail";
+import BenefitsCar from "./BenefitsCar";
 
 const Benefits = () => {
-  const [showModal, setShowModal] = useState(false);
+  let [catalogue, setCatalogue] = useState([]);
 
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  useEffect(() => {
+    fetch("products.json")
+      .then((response) => response.json())
+      .then((data) => setCatalogue((catalogue = data)));
+  }, []);
 
   return (
     <div>
@@ -39,81 +37,8 @@ const Benefits = () => {
           <option value="estación central">Servicios</option>
         </select>
         <div>
-          <div>
-            <img src={movistarLogo} alt="" />
-            <div>
-              <h3>Movistar</h3>
-              <p>Canjea tus puntos y paga tu cuenta</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
-          <div>
-            <img src={houseLogo} alt="" />
-            <div>
-              <h3>House Bar</h3>
-              <p>40% Descuento en productos seleccion</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
-          <div>
-            <img src={cabifyLogo} alt="" />
-            <div>
-              <h3>Cabify</h3>
-              <p>Gana hasta $25.000 con primeros viajes solicitados</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
-          <div>
-            <img src={lippiLogo} alt="" />
-            <div>
-              <h3>Lippi</h3>
-              <p>15% descuento adicional en la tienda</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
-          <div>
-            <img src={hakaLogo} alt="" />
-            <div>
-              <h3>Haka Honu</h3>
-              <p>¡Aprovecha este descuento exclusivo y disfruta de una</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
-          <div>
-            <img src={rappiLogo} alt="" />
-            <div>
-              <h3>Rappi</h3>
-              <p>Delivery gratis, pagando con MACH</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
-          <div>
-            <img src={nikLogo} alt="" />
-            <div>
-              <h3>NIK Gamers</h3>
-              <p>Descuento 30% en tu próxima compra</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
-          <div>
-            <img src={donutsLogo} alt="" />
-            <div>
-              <h3>Dunkin'Donuts</h3>
-              <p>20% Descuento en combos !lleva mas, por menos!</p>
-              <p onClick={openModal}>Ver más detalles</p>
-            </div>
-          </div>
+          <BenefitsCar products={catalogue} key="list" />
         </div>
-      </div>
-      <div>
-        {showModal === false ? null : (
-          <BenefitsDetail
-            img={donutsLogo}
-            name="Dunkin'Donuts"
-            producer="20% Descuento en combos !lleva mas, por menos!"
-            close={closeModal}
-          />
-        )}
       </div>
     </div>
   );
