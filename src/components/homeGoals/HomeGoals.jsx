@@ -2489,6 +2489,8 @@ const HomeGoals = () => {
           <p>Retos diarios</p>
         </div>
       </div>
+      <div>
+      </div>
     </div>
   );
 }
