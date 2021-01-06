@@ -1,7 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
 
-.container {
+.container{
   display: flex;
   flex-direction: column;
   padding: 0px;

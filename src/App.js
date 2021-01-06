@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-/*   Link ,
+  /*   Link ,
  NavLink,  */
 } from "react-router-dom";
 
@@ -13,6 +13,7 @@ import {
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Wins from "./components/win/Wins";
+import HomeGoals from "./components/homeGoals/HomeGoals";
 
 function App() {
   return (
@@ -23,9 +24,12 @@ function App() {
             <Header />
             <Home />
           </Route>
-
           <Route path="/win">
             <Wins />
+          </Route>
+
+          <Route path="/homeGoals">
+            <HomeGoals />
           </Route>
         </Switch>
       </div>
