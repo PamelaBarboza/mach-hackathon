@@ -1,5 +1,5 @@
 import React from "react";
-import "../headerTwo/headerTwo.css";
+import "../header/header.css";
 
 const headerTwo = () => {
   return (
@@ -74,14 +74,13 @@ const headerTwo = () => {
           </div>
           <p>Tu primera meta</p>
           <div>
-              <form>
-              <form action="">
-  <label for="fname">Colócale un nombre</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-              </form>
+            <form action="">
+              <label for="fname">Colócale un nombre</label>
+
+              <input type="text" id="fname" name="fname" value="John"></input>
+            </form>
           </div>
         </div>
-        
       </div>
     </div>
   );

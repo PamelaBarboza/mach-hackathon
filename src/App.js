@@ -8,7 +8,6 @@ import {
  NavLink,  */
 } from "react-router-dom";
 
-
 /* import Bot from "./components/bot/Bot"; */
 /* import Buttons from "./components/buttons/Buttons"; */
 
@@ -18,10 +17,11 @@ import HomeGoals from "./components/homeGoals/HomeGoals";
 import Bot1 from "./components/bot/Bot1";
 import Bot2 from "./components/bot/Bot2";
 import Bot3 from "./components/bot/Bot3";
-import Buttons from "./components/buttons/Buttons";
 import Header from "./components/header/Header";
 import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
 import Benefits from "./components/benefits/Benefits";
+import HeaderTwo from "./components/headerTwo/HeaderTwo";
+import Watch from "./watch/Watch";
 
 function App() {
   return (
@@ -47,11 +47,9 @@ function App() {
           <Route path="/homeGoals" exact>
             <HomeGoals />
           </Route>
-          <Route path="/youFirstGoals" exact>
-            <YouFirstGoals />
-          </Route>
-          <Route path="/youFirstGoals" exact>
-            <YouFirstGoals />
+          <Route path="/headerTwo" exact>
+            <Watch />
+            <HeaderTwo />
           </Route>
           <Route path="/benefitsDetail" exact>
             <BenefitsDetail />
