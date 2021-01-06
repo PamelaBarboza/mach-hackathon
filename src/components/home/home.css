@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
+.containerHome {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fafafa;
+  border-bottom-style: inset;
+  color: #6200ee;
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.machPoint {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Nunito";
+  color: #5c5c5c;
+  margin-top: 10px;
+      height: 47px;
+}
+
+.text {
+  padding-top: 9px;
+}
+
+.machPointText {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 60px;
+}
+
+.cuantity {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.textMach {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.bar{
+ padding-bottom: 20px;
+}
+
+.textMachMsj{
+  font-size: 16px;
+  padding-right: 40px;
+}
+
+.textMin{
+  font-size: 14px;
+}
+.machPng img{
+  width: 40px;
+  height: 40px;
+}
+
