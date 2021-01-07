@@ -1,20 +1,22 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./benefits.css";
-import movistarLogo from "../../media/movistar.png";
-import houseLogo from "../../media/house.png";
-import cabifyLogo from "../../media/cabify.png";
-import lippiLogo from "../../media/lippi.png";
-import hakaLogo from "../../media/haka.png";
-import rappiLogo from "../../media/movistar.png";
-import nikLogo from "../../media/nik.png";
-import donutsLogo from "../../media/donuts.png";
 import { Icon } from "@iconify/react";
 import bxMap from "@iconify-icons/bx/bx-map";
 import BenefitsCar from "./BenefitsCar";
+import Map from "./Map";
 
 const Benefits = () => {
   let [catalogue, setCatalogue] = useState([]);
   let [catalogueFilter, setCatalogueFilter] = useState([]);
+  const [showMap, setShowMap] = useState(false);
+
+  const openMap = () => {
+    setShowMap(true);
+  };
+
+  const closeMap = () => {
+    setShowMap(false);
+  };
 
   useEffect(() => {
     fetch("products.json")
@@ -132,7 +134,7 @@ const Benefits = () => {
         </div>
       </div>
       <div className="container-benefits">
-        <button>
+        <button onClick={openMap}>
           <Icon icon={bxMap} />
           Buscar descuentos cercanos
         </button>
@@ -146,6 +148,7 @@ const Benefits = () => {
         </select>
 
         <BenefitsCar products={catalogueFilter} key="list" />
+        {showMap === false ? null : <Map close={closeMap} />}
       </div>
     </div>
   );

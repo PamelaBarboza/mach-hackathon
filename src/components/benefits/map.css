@@ -1,0 +1,69 @@
+
+.container-map{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2222;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.container-map>svg{
+  align-self: baseline;
+  color: #6200EE;
+  font-size: 34px;
+  margin: 3% 0 0 4%;
+}
+
+.map-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-title> h3{
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #333333;
+  margin-top:8%;
+}
+
+.map-title > h4:nth-child(2){
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-align: center;
+  margin-left: 1%;
+  text-transform: uppercase;
+  color: #C05111;
+}
+  
+.map-container{
+      width:90%;
+      height:400px;
+      box-sizing: border-box;
+}
+
+.pin {
+      display: flex;
+      align-items: center;
+      width: 180px;
+}
+
+.pin-icon {
+      font-size: 2rem;
+      color:#e95500;
+}
+    
+.pin-text {
+      font-size: 1.3em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+}
