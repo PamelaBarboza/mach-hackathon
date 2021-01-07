@@ -22,6 +22,8 @@ import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
 import Benefits from "./components/benefits/Benefits";
 import HeaderTwo from "./components/headerTwo/HeaderTwo";
 import Watch from "./watch/Watch";
+import Missions from "./components/missions/Missions";
+import Achievements from "./components/achievements/Achievements";
 
 function App() {
   return (
@@ -61,7 +63,12 @@ function App() {
             <Header />
             <Home />
           </Route>
-
+          <Route path="/missions" exact>
+            <Missions />
+          </Route>
+          <Route path="/achievements" exact>
+            <Achievements />
+          </Route>
           <Route path="/win">
             <Wins />
           </Route>
