@@ -8,4 +8,4 @@ const Wins = () => {
   );
 };
 
-export default Win;
+export default Wins;

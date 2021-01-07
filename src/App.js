@@ -8,8 +8,6 @@ import {
  NavLink,  */
 } from "react-router-dom";
 
-/* import Bot from "./components/bot/Bot"; */
-/* import Buttons from "./components/buttons/Buttons"; */
 
 import Home from "./components/home/Home";
 import Wins from "./components/win/Wins";
@@ -21,6 +19,10 @@ import Header from "./components/header/Header";
 import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
 import Benefits from "./components/benefits/Benefits";
 import HeaderTwo from "./components/headerTwo/HeaderTwo";
+import SumaryGoals from "./components/summaryGoals/SumaryGoals";
+import MessageSuccess from "./components/messageSuccess/MessageSuccess";
+import Time from "./components/time/Time";
+import Goals from "./components/goals/Goals";
 import Watch from "./watch/Watch";
 import BenefitMovistar from "./components/benefits/BenefitMovistar";
 
@@ -48,9 +50,21 @@ function App() {
           <Route path="/homeGoals" exact>
             <HomeGoals />
           </Route>
-          <Route path="/headerTwo" exact>
-            <Watch />
+          <Route path="/goals" exact>
             <HeaderTwo />
+            <Goals />
+          </Route>
+          <Route path="/time" exact>
+            <HeaderTwo />
+            <Time />
+          </Route>
+          <Route path="/sumaryGoals" exact>
+            <HeaderTwo />
+            <SumaryGoals/>
+          </Route>
+          <Route path="/messageSuccess" exact>
+            <HeaderTwo />
+            <MessageSuccess/>
           </Route>
           <Route path="/benefitsDetail" exact>
             <BenefitMovistar />
