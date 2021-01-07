@@ -1,18 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const Buttons = () => {
+const NextMission= () => {
 
   return (
     <div>
       <Router>
-        <a href='/ok'><button className="btn-ok" name='Listo'>Listo</button></a>
+        <a href='/ok'><button className="btn-ok" name='Siguiente Misión'>Siguiente Misión</button></a>
         </Router>
     </div>
   );
 }
 
-export default Buttons;
-
-
-
+export default NextMission;

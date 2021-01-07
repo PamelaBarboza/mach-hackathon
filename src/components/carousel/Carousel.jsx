@@ -25,24 +25,37 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div className="category">
-        <Link to="/benefitsDetail">
+        <Link to="/benefits">
           <img src={movistar} alt="Movistar" />{" "}
         </Link>
       </div>
       <div className="category">
-        <img src={houseBar} alt="houseBar" />
+        <Link to="/benefits">
+          <img src={houseBar} alt="houseBar" />
+        </Link>
+      </div>
+
+      <div className="category">
+        <Link to="/benefits">
+          <img src={cabify} alt="cabify" />
+        </Link>
+      </div>
+
+      <div className="category">
+        <Link to="/benefits">
+          <img src={lippi} alt="lippi" />
+        </Link>
       </div>
       <div className="category">
-        <img src={cabify} alt="cabify" />
+        <Link to="/benefits">
+          <img src={rappi} alt="rappi" />
+        </Link>
       </div>
+
       <div className="category">
-        <img src={lippi} alt="lippi" />
-      </div>
-      <div className="category">
-        <img src={rappi} alt="rappi" />
-      </div>
-      <div className="category">
-        <img src={aka} alt="aka" />
+        <Link to="/benefits">
+          <img src={aka} alt="aka" />
+        </Link>
       </div>
     </Slider>
   );}

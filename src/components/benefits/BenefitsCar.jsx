@@ -9,6 +9,7 @@ const BenefitsCar = (props) => {
     name: "",
   });
 
+
   const openModal = (e) => {
     setProduct({
       photo: e.currentTarget.parentElement.parentElement.firstChild.getAttribute(

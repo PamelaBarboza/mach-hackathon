@@ -6,6 +6,7 @@
 }
 
 .missionLevel {
+  display: flex;
   width: 316px;
   height: 93px;
   background: #ffffff;
@@ -47,4 +48,24 @@ border-radius: 10px;
 }
 .containerChallenges p {
     font-family: "Nunito";
+}
+
+.piedra{
+  display: flex;
+  justify-content: center;
+}
+
+.piedra img{
+  width: 344px;
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+a p{
+  font-family: "Nunito";
+color: black ;
+font-size: 20px;
 }

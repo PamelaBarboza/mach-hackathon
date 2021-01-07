@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import "./benefits.css";
 import { Icon } from "@iconify/react";
@@ -9,6 +10,7 @@ import { Link } from "react-router-dom";
 const Benefits = () => {
   let [catalogue, setCatalogue] = useState([]);
   let [catalogueFilter, setCatalogueFilter] = useState([]);
+
   const [showMap, setShowMap] = useState(false);
 
   const openMap = () => {
