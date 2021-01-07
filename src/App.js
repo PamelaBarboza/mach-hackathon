@@ -21,10 +21,10 @@ import Header from "./components/header/Header";
 import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
 import Benefits from "./components/benefits/Benefits";
 import HeaderTwo from "./components/headerTwo/HeaderTwo";
-import GoalsForm from "./components/goals/Goals";
 import SumaryGoals from "./components/summaryGoals/SumaryGoals";
 import MessageSuccess from "./components/messageSuccess/MessageSuccess";
 import Time from "./components/time/Time";
+import Goals from "./components/goals/Goals";
 /* import Watch from "./watch/Watch";
  */
 function App() {
@@ -51,10 +51,9 @@ function App() {
           <Route path="/homeGoals" exact>
             <HomeGoals />
           </Route>
-          <Route path="/headerTwo" exact>
-           {/*  <Watch /> */}
+          <Route path="/goals" exact>
             <HeaderTwo />
-            <GoalsForm />
+            <Goals />
           </Route>
           <Route path="/time" exact>
             <HeaderTwo />

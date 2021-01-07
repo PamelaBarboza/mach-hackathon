@@ -1,7 +1,9 @@
 import React from "react";
+import "../header/header.css";
+import "../win/wins.css";
 
 
-    const GoalsForm = () => {
+    const Goals = () => {
         const [name, setName] = React.useState('')
 
         const saveData = (e) => {
@@ -21,7 +23,7 @@ import React from "react";
         return (
             <div>
             <hr/>
-            <p>Colócale un nombre</p>
+            <h2>Colócale un nombre</h2>
             <form onSubmit={ saveData }>
                 <input
                 type="text"
@@ -31,8 +33,9 @@ import React from "react";
                 />
                {/*  <button className="btn btn-primary btn-block" type="submit">Listo</button> */}
             </form>
+            <button>Listo</button>
         </div>
     );
 }
 
-export default GoalsForm;
+export default Goals;

@@ -5,6 +5,7 @@ import "../header/header.css";
 const Time = () => {
    return (
       <div>
+        <h2>Elige el monto que quieres ahorrar</h2>
         <Router>
           <a href='/ok'><button className="btn-ok" name='3 meses'>3 meses</button></a>
           <a href='/ok'><button className="btn-ok" name='6 meses'>6 meses</button></a>
