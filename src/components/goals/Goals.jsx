@@ -1,6 +1,6 @@
 import React from "react";
-import "../header/header.css";
-import "../win/wins.css";
+import { Link } from "react-router-dom";
+import "../goals/goals.css";
 
 
     const Goals = () => {
@@ -21,19 +21,22 @@ import "../win/wins.css";
         }
 
         return (
-            <div>
-            <hr/>
-            <h2>Colócale un nombre</h2>
+            <div className="container-goals1">
+            <h2 className="name-goals1">Colócale un nombre</h2>
             <form onSubmit={ saveData }>
                 <input
+                className="form-goals1"
                 type="text"
                 placeholder="Ejemplo: Celular nuevo"
-                className="Form-control mb-2"
                 onChange={ (e) => setName(e.target.value) }
                 />
-               {/*  <button className="btn btn-primary btn-block" type="submit">Listo</button> */}
             </form>
-            <button>Listo</button>
+            <div className="button-goals1">
+            <Link
+            to="/goals2">
+                <button>Listo</button>{" "}
+                </Link>
+            </div>
         </div>
     );
 }

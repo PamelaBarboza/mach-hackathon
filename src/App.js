@@ -15,14 +15,13 @@ import Bot1 from "./components/bot/Bot1";
 import Bot2 from "./components/bot/Bot2";
 import Bot3 from "./components/bot/Bot3";
 import Header from "./components/header/Header";
-import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
+/* import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail"; */
 import Benefits from "./components/benefits/Benefits";
 import HeaderTwo from "./components/headerTwo/HeaderTwo";
 import SumaryGoals from "./components/summaryGoals/SumaryGoals";
 import MessageSuccess from "./components/messageSuccess/MessageSuccess";
 import Time from "./components/time/Time";
 import Goals from "./components/goals/Goals";
-import Watch from "./watch/Watch";
 import Missions from "./components/missions/Missions";
 import Achievements from "./components/achievements/Achievements";
 import BenefitMovistar from "./components/benefits/BenefitMovistar";
