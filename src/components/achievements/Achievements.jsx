@@ -1,11 +1,11 @@
-import React from 'react';
-import "./homeGoals.css";
+import React from "react";
+import "../homeGoals/homeGoals.css";
 import "../win/wins.css";
 import { Link } from "react-router-dom";
-import misionesRestantes from "../../img/misionesrestantes.png"
-import piedra from "../../img/piedras.png";
+import misionesRestantes from "../../img/misionesrestantes.png";
+import logrado from "../../img/logrado.png";
 
-const HomeGoals = () => {
+const Achievements = () => {
   return (
     <div className="container">
       <div className="header">
@@ -2544,19 +2544,22 @@ const HomeGoals = () => {
       <br />
       <div className="containerChallenges">
         <Link to="/missions">
-          <p>
-            <strong>Misiones</strong>
-          </p>{" "}
+          <p>Misiones</p>{" "}
         </Link>
 
         <div>
           <Link to="/achievements">
-            <p>Logros</p>{" "}
+            <p>
+              <strong>Logros</strong>
+            </p>{" "}
+            
           </Link>
+          
         </div>
+        
       </div>
       <div className="piedra">
-        <img src={piedra} alt="" />
+        <img src={logrado} alt="" />
       </div>
       <br />
       {/* botones del footer */}
@@ -2664,6 +2667,7 @@ const HomeGoals = () => {
       </div>
     </div>
   );
-}
+};
 
-export default HomeGoals;
+export default Achievements;
+

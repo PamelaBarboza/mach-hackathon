@@ -24,6 +24,8 @@ import MessageSuccess from "./components/messageSuccess/MessageSuccess";
 import Time from "./components/time/Time";
 import Goals from "./components/goals/Goals";
 import Watch from "./watch/Watch";
+import Missions from "./components/missions/Missions";
+import Achievements from "./components/achievements/Achievements";
 import BenefitMovistar from "./components/benefits/BenefitMovistar";
 
 function App() {
@@ -76,7 +78,12 @@ function App() {
             <Header />
             <Home />
           </Route>
-
+          <Route path="/missions" exact>
+            <Missions />
+          </Route>
+          <Route path="/achievements" exact>
+            <Achievements />
+          </Route>
           <Route path="/win">
             <Wins />
           </Route>

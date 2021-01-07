@@ -5,7 +5,10 @@ import status from "../../img/status.png";
 import "./benefitsDetail.css";
 import { Link } from "react-router-dom";
 
+
 const BenefitsDetail = (props) => {
+  // return props.map((item) => {
+  //   if (item.photo === props.img) {
   return (
     <div className="container-benefits-detail">
       <div>

@@ -10,6 +10,7 @@
     height: 92px;
 }
 
+
 .container-benefits{
     display: flex;
     flex-direction: column;
@@ -45,6 +46,7 @@
     text-align: left;
     margin: 2%;
 }
+
 
 .container-benefits>select:focus{
     outline: none;
