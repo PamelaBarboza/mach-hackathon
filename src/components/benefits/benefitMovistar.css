@@ -1,0 +1,55 @@
+.container-benefits-movistar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    z-index: 2
+}
+
+.container-benefits-movistar>:nth-child(1){
+    margin: 0;
+}
+
+.container-benefits-movistar>:nth-child(2){
+    margin: 5% 2% 0 4%
+}
+
+.container-benefits-movistar>:nth-child(2)>:nth-child(2){
+    text-align: center;
+}
+
+.container-benefits-movistar>div>a>svg{
+    align-self: baseline;
+    color: #6200EE;
+    font-size: 24px;
+}
+
+.container-benefits-movistar>:nth-child(2)>:nth-child(3){
+    margin: 3% 9% 0 9%;
+}
+
+.container-benefits-movistar>:nth-child(2)>:nth-child(3)>div{
+    margin-bottom: 7%;
+}
+
+.container-benefits-movistar>:nth-child(2)>:nth-child(3)>div>p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #111111;
+    margin: 0;
+}
+
+.container-benefits-movistar>:nth-child(2)>a>button{
+    width: 344px;
+    height: 57px;
+    border-radius: 10px;
+    background: #6200EE;
+    border: none;
+    margin: 14% 0 1% 0;
+    color: #F5EEFF;
+    font-size: 20px;
+    font-weight: 600;
+}
