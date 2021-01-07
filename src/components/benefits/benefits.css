@@ -2,6 +2,14 @@
     background: #F6F6F6;
 }
 
+#root{
+    height: 100vh;
+}
+
+.header{
+    height: 92px;
+}
+
 .container-benefits{
     display: flex;
     flex-direction: column;

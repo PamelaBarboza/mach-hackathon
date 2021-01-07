@@ -8,28 +8,36 @@
     background: #ffffff;
 }
 
-.container-benefits-detail>svg{
+.container-benefits-detail>:nth-child(1){
+    margin: 0;
+}
+
+.container-benefits-detail>:nth-child(2)>:nth-child(2){
+    text-align: center;
+}
+
+.container-benefits-detail>div>svg{
     align-self: baseline;
     color: #6200EE;
     font-size: 24px;
 }
 
-.container-benefits-detail>:nth-child(3){
+.container-benefits-detail>:nth-child(2)>:nth-child(3){
     margin: 3% 9% 0 9%;
 }
 
-.container-benefits-detail>:nth-child(3)>div{
+.container-benefits-detail>:nth-child(2)>:nth-child(3)>div{
     margin-bottom: 7%;
 }
 
-.container-benefits-detail>:nth-child(3)>div>p{
+.container-benefits-detail>:nth-child(2)>:nth-child(3)>div>p{
     font-size: 14px;
     line-height: 19px;
     color: #111111;
     margin: 0;
 }
 
-.container-benefits-detail>button{
+.container-benefits-detail>:nth-child(2)>button{
     width: 344px;
     height: 57px;
     border-radius: 10px;

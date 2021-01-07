@@ -2,11 +2,13 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import closeIcon from "@iconify-icons/grommet-icons/close";
 import bot3 from "../../media/bot1.png";
+import status from "../../img/status.png";
 import "./bot3.css";
 
 const Bot3 = () => {
   return (
     <div className="container-bot3">
+      <img src={status} alt="img-status" />
       <Icon icon={closeIcon} />
       <div>
         <h3>¿Como obtengo los beneficios?</h3>
