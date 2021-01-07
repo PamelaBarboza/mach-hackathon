@@ -6,7 +6,10 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "bootstrap": "^4.5.3",
+    "google-map-react": "^2.1.9",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
@@ -41,6 +44,7 @@
   "devDependencies": {
     "@iconify-icons/bx": "^1.1.0",
     "@iconify-icons/grommet-icons": "^1.1.0",
+    "@iconify-icons/mdi": "^1.1.2",
     "@iconify-icons/ri": "^1.1.0",
     "@iconify/react": "^1.1.3"
   }

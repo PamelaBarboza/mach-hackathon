@@ -73,13 +73,6 @@ const headerTwo = () => {
             </svg>
           </div>
           <p>Tu primera meta</p>
-          <div>
-            <form action="">
-              <label for="fname">Colócale un nombre</label>
-
-              <input type="text" id="fname" name="fname" value="John"></input>
-            </form>
-          </div>
         </div>
       </div>
     </div>

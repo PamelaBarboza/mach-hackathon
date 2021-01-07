@@ -9,19 +9,8 @@ const BenefitsCar = (props) => {
     name: "",
   });
 
-  const [productName, setProductName] = useState(undefined);
 
   const openModal = (e) => {
-    //setImgProduct(
-    //   e.currentTarget.parentElement.parentElement.firstChild.getAttribute("src")
-    // );
-
-    // props.products.map((item) => {
-    //   if (item.photo === imgProduct) {
-    //     setProductName(item.name);
-    //     console.log(productName);
-    //   }
-    // });
     setProduct({
       photo: e.currentTarget.parentElement.parentElement.firstChild.getAttribute(
         "src"
@@ -39,7 +28,7 @@ const BenefitsCar = (props) => {
 
   const products = props.products.map((item) => {
     return (
-      <div className="container-car">
+      <div className="container-car" key={item.id}>
         <img src={item.photo} alt="" />
         <div>
           <h3>{item.name}</h3>

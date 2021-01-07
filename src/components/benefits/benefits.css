@@ -6,9 +6,10 @@
     height: 100vh;
 }
 
-/* .header{
+.container-allbenefits>:nth-child(1)>:nth-child(1){
     height: 92px;
-} */
+}
+
 
 .container-benefits{
     display: flex;
@@ -46,6 +47,15 @@
     margin: 2%;
 }
 
+
+.container-benefits>select:focus{
+    outline: none;
+}
+
+.container-benefits>:nth-child(3){
+    background: #F6F6F6;
+}
+
 .container-car{
     display: flex;
     background-color: #ffffff;
@@ -79,5 +89,9 @@
     font-size: 14px;
     line-height: 19px;
     color: #9B55FF;
+}
 
+.container-footer{
+    position: sticky;
+    bottom: 0;
 }
