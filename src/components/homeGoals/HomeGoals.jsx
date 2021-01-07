@@ -342,7 +342,7 @@ const HomeGoals = () => {
             </svg>
           </div>
           <div>
-            <p>33.345</p>
+            <p>1500</p>
             <p className="textocoint">Tus Machpoints</p>
           </div>
         </div>
@@ -2556,7 +2556,9 @@ const HomeGoals = () => {
         </div>
       </div>
       <div className="piedra">
-        <img src={piedra} alt="" />
+        <Link to="/goals">
+          <img src={piedra} alt="" />{" "}
+        </Link>
       </div>
       <br />
       {/* botones del footer */}

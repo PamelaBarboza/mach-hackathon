@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
 .container-bot1{
     display: flex;
     flex-direction: column;
@@ -22,12 +24,14 @@
     font-size: 28px;
     line-height: 38px;
     color: #111111;
+    font-family: "Nunito";
 }
 
 .container-bot1>div>p{
     font-size: 16px;
     line-height: 22px;
     color: #5C5C5C;
+    font-family: "Nunito";
 }
 
 .container-bot1>:nth-child(4){
@@ -41,10 +45,11 @@
     border-radius: 10px;
     background: #6200EE;
     border: none;
-    margin: 28% 0 1% 0;
+    margin: 40% 0 1% 0;
     color: #F5EEFF;
     font-size: 20px;
     font-weight: 600;
+    font-family: "Nunito";
 }
 
 .container-bot1>hr{

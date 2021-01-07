@@ -4,8 +4,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  /*   Link ,
- NavLink,  */
 } from "react-router-dom";
 
 import Home from "./components/home/Home";
@@ -15,7 +13,6 @@ import Bot1 from "./components/bot/Bot1";
 import Bot2 from "./components/bot/Bot2";
 import Bot3 from "./components/bot/Bot3";
 import Header from "./components/header/Header";
-/* import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail"; */
 import Benefits from "./components/benefits/Benefits";
 import HeaderTwo from "./components/headerTwo/HeaderTwo";
 import SumaryGoals from "./components/summaryGoals/SumaryGoals";
@@ -25,7 +22,11 @@ import Goals from "./components/goals/Goals";
 import Missions from "./components/missions/Missions";
 import Achievements from "./components/achievements/Achievements";
 import BenefitMovistar from "./components/benefits/BenefitMovistar";
+
 import Amount from "./components/amount/Amount"
+
+import NextMission from "./components/nextMission/NextMission";
+import AchievementsAdd from "./components/achievementsAdd/AchievementsAdd";
 
 function App() {
   return (
@@ -93,6 +94,12 @@ function App() {
           </Route>
           <Route path="/win">
             <Wins />
+          </Route>
+          <Route path="/nextMission" exact>
+            <NextMission />
+          </Route>
+          <Route path="/achievementsAdd" exact>
+            <AchievementsAdd />
           </Route>
         </Switch>
       </div>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
 #root{
     background: #F6F6F6;
 }
@@ -27,6 +29,7 @@
     line-height: 22px;
     text-align: left;
     margin: 2%;
+    font-family: "Nunito";
 }
 
 .container-benefits>button>svg{
@@ -45,6 +48,7 @@
     line-height: 22px;
     text-align: left;
     margin: 2%;
+    font-family: "Nunito";
 }
 
 
@@ -75,6 +79,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
+    font-family: "Nunito";
     color: #5C5C5C;
 }
 
@@ -82,6 +87,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #111111;
+    font-family: "Nunito";
 }
 
 .container-benefits>div>div>div>p:nth-child(3){
@@ -89,9 +95,10 @@
     font-size: 14px;
     line-height: 19px;
     color: #9B55FF;
+    font-family: "Nunito";
 }
 
 .container-footer{
-    position: sticky;
+    position: fixed;
     bottom: 0;
 }
