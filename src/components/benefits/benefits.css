@@ -2,6 +2,14 @@
     background: #F6F6F6;
 }
 
+#root{
+    height: 100vh;
+}
+
+.header{
+    height: 92px;
+}
+
 .container-benefits{
     display: flex;
     flex-direction: column;
@@ -38,7 +46,7 @@
     margin: 2%;
 }
 
-.container-benefits>div>div{
+.container-car{
     display: flex;
     background-color: #ffffff;
     margin: 5% 2%;

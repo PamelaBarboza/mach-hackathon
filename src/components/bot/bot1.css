@@ -9,7 +9,8 @@
 .container-bot1>svg{
     align-self: baseline;
     color: #6200EE;
-    font-size: 24px;
+    font-size: 34px;
+    margin: 3% 0 0 4%;
 }
 
 .container-bot1>div{
@@ -28,7 +29,7 @@
     color: #5C5C5C;
 }
 
-.container-bot1>img{
+.container-bot1>:nth-child(4){
     width: 245px;
     height: 256.5px;
 }
