@@ -1,14 +1,18 @@
 import React from "react";
+import bot1 from "../../img/bot1.png";
+import { Link } from "react-router-dom";
+import "../messageSuccess/messageSuccess.css"
+
 const MessageSuccess  = () => {
     return (
-        <div>
+        <div className="success">
             <h1>¡TU MISIÓN FUE CREADA CON ÉXITO!</h1>
-            <p1>Agregamos a tus Machpoint</p1>
-           {/*  <img src ={ image } alt=""/>
-            <img src ={ image } alt=""/> */}
+            <img src={bot1} alt="img-bot1" />
+      <Link to="/">
       <div className="container-benefits">
-      <button>Siguiente Misión</button>
+      <button>Cerrar</button>
         </div>
+      </Link>
         </div>
     )
 }
