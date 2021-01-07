@@ -1,0 +1,26 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.header2 {
+  background: #6200ee;
+  height: 92px;
+}
+
+.goals {
+  display: flex;
+  justify-content: center;
+  color: #f5eeff;
+  font-family: "Nunito";
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.h2 {
+    position: relative;
+    justify-content: center;
+}
