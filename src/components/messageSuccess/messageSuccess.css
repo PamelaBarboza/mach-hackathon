@@ -1,0 +1,21 @@
+.success{
+    position: absolute;
+width: 281px;
+height: 76px;
+left: calc(50% - 281px/2 - 5px);
+top: calc(50% - 76px/2 - 173px);
+
+/* H1 */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+
+/* C-013 */
+
+color: #440099;
+}
+

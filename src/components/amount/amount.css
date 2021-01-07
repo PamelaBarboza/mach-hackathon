@@ -1,0 +1,110 @@
+
+.container-goals1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+    align-items:flex-start;
+    padding-top: 40%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+    align-items:flex-start;
+    padding-top: 40%;
+}
+
+
+.button-amount>a>button{
+    width: 344px;
+    height: 57px;
+    border-radius: 10px;
+    background: #6200EE;
+    border: none;
+    margin: 28% 0 1% 0;
+    color: #F5EEFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.name-goals1{
+    
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 22px;
+    top: 256px;
+    
+    /* H2 */
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    
+    /* C-011 */
+    
+    color: #333333;
+}
+
+.form-goals1{
+    position: absolute;
+width: 193px;
+height: 19px;
+left: 16px;
+top: 314px;
+
+/* P1 */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+/* C-010 */
+
+color: #999999;
+}
+
+.button-goals1>a>button{
+    width: 344px;
+    height: 57px;
+    border-radius: 10px;
+    background: #6200EE;
+    border: none;
+    margin: 28% 0 1% 0;
+    color: #F5EEFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.amount-text{
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 16px;
+    top: 256px;
+    
+    /* H2  */
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    
+    /* C-011 */
+    color: #333333;
+    
+}
+
+.amount {
+    display: flex;
+    flex-direction: r;
+    align-items: flex-end;
+}

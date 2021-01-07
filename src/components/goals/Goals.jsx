@@ -33,7 +33,7 @@ import "../goals/goals.css";
             </form>
             <div className="button-goals1">
             <Link
-            to="/goals2">
+            to="/amount">
                 <button>Listo</button>{" "}
                 </Link>
             </div>
