@@ -1,14 +1,17 @@
-import React from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./carousel.css";
+
+import React from "react";
+import Slider from "react-slick";
+import { Link } from "react-router-dom";
 import movistar from "../../img/movistar.png"
 import houseBar from "../../img/houseBar.png";
 import cabify from "../../img/cabify.png";
 import lippi from "../../img/lippi.png";
 import rappi from "../../img/rappi.png";
 import aka from "../../img/aka.png";
+
+import "./carousel.css";
 
 
 const Carousel = () => {
@@ -22,7 +25,9 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div className="category">
-        <img src={movistar} alt="Movistar" />
+        <Link to="/benefitsDetail">
+          <img src={movistar} alt="Movistar" />{" "}
+        </Link>
       </div>
       <div className="category">
         <img src={houseBar} alt="houseBar" />
