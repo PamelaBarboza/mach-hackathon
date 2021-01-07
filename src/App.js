@@ -22,6 +22,9 @@ import Goals from "./components/goals/Goals";
 import Missions from "./components/missions/Missions";
 import Achievements from "./components/achievements/Achievements";
 import BenefitMovistar from "./components/benefits/BenefitMovistar";
+
+import Amount from "./components/amount/Amount"
+
 import NextMission from "./components/nextMission/NextMission";
 import AchievementsAdd from "./components/achievementsAdd/AchievementsAdd";
 
@@ -56,6 +59,10 @@ function App() {
           <Route path="/goals" exact>
             <HeaderTwo />
             <Goals />
+          </Route>
+          <Route path="/amount" exact>
+            <HeaderTwo />
+            <Amount />
           </Route>
           <Route path="/time" exact>
             <HeaderTwo />
