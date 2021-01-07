@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.header{
+.container-allbenefits>:nth-child(1)>:nth-child(1){
     height: 92px;
 }
 
@@ -87,4 +87,9 @@
     font-size: 14px;
     line-height: 19px;
     color: #9B55FF;
+}
+
+.container-footer{
+    position: sticky;
+    bottom: 0;
 }

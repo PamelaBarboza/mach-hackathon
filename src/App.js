@@ -22,6 +22,7 @@ import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
 import Benefits from "./components/benefits/Benefits";
 import HeaderTwo from "./components/headerTwo/HeaderTwo";
 import Watch from "./watch/Watch";
+import BenefitMovistar from "./components/benefits/BenefitMovistar";
 
 function App() {
   return (
@@ -52,7 +53,7 @@ function App() {
             <HeaderTwo />
           </Route>
           <Route path="/benefitsDetail" exact>
-            <BenefitsDetail />
+            <BenefitMovistar />
           </Route>
           <Route path="/benefits" exact>
             <Benefits />

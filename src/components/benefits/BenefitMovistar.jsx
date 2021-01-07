@@ -2,24 +2,29 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import closeIcon from "@iconify-icons/grommet-icons/close";
 import status from "../../img/status.png";
-import "./benefitsDetail.css";
+import movistarLogo from "../../img/movistar2.png";
 import { Link } from "react-router-dom";
+import "./benefitMovistar.css";
 
-const BenefitsDetail = (props) => {
+const BenefitMovistar = (props) => {
   return (
-    <div className="container-benefits-detail">
+    <div className="container-benefits-movistar">
       <div>
         <img src={status} alt="status-img" />
       </div>
       <div>
-        <Icon icon={closeIcon} onClick={props.close} />
+        <Link to="/benefits">
+          <Icon icon={closeIcon} onClick={props.close} />
+        </Link>
         <div>
-          <img src={props.img} alt="movistar-logo" />
-          <h2>{props.name}</h2>
+          <img src={movistarLogo} alt="movistar-logo" />
+          <h2>Movistar</h2>
         </div>
         <div>
           <div>
-            <p>{props.producer}</p>
+            <p>
+              Canjea <strong>Machpoint</strong> y paga tu cuenta.
+            </p>
           </div>
           <div>
             <p>
@@ -61,4 +66,4 @@ const BenefitsDetail = (props) => {
   );
 };
 
-export default BenefitsDetail;
+export default BenefitMovistar;
