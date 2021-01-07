@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router } from 'react-router-dom';
+/* import { BrowserRouter as Router } from 'react-router-dom'; */
 import Card from 'react-bootstrap/Card';
 import "../amount/amount.css"
 
@@ -8,7 +8,6 @@ const Amount = () => {
    return (
       <div className="amount-text">
         <h2>Elige el monto que quieres ahorrar</h2>
-        <Router>
           <div className="amount">
         <Card body>$300.000</Card>
         <Card body>$600.000</Card>
@@ -23,7 +22,7 @@ const Amount = () => {
                 <button>Continuar</button>{" "}
                 </Link>
             </div>
-          </Router>
+          
       </div>
     );
   }
