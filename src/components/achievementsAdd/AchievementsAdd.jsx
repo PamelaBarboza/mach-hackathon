@@ -342,7 +342,7 @@ const AchievementsAdd = () => {
             </svg>
           </div>
           <div>
-            <p>33.345</p>
+            <p>1510</p>
             <p className="textocoint">Tus Machpoints</p>
           </div>
         </div>
@@ -2580,7 +2580,7 @@ const AchievementsAdd = () => {
       </div>
       <br />
       <div className="containerChallenges">
-        <Link to="/missions">
+        <Link to="/nextMission">
           <p>Misiones</p>{" "}
         </Link>
 
