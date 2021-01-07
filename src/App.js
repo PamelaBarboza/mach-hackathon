@@ -8,7 +8,6 @@ import {
  NavLink,  */
 } from "react-router-dom";
 
-
 import Home from "./components/home/Home";
 import Wins from "./components/win/Wins";
 import HomeGoals from "./components/homeGoals/HomeGoals";
@@ -34,6 +33,10 @@ function App() {
       <div>
         <Switch>
           <Route path="/" exact>
+            <Header />
+            <Home />
+          </Route>
+          <Route path="/bot1" exact>
             <Bot1 />
           </Route>
           <Route path="/bot2" exact>
@@ -62,11 +65,11 @@ function App() {
           </Route>
           <Route path="/sumaryGoals" exact>
             <HeaderTwo />
-            <SumaryGoals/>
+            <SumaryGoals />
           </Route>
           <Route path="/messageSuccess" exact>
             <HeaderTwo />
-            <MessageSuccess/>
+            <MessageSuccess />
           </Route>
           <Route path="/benefitsDetail" exact>
             <BenefitMovistar />
