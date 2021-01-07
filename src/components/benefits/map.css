@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
 
 .container-map{
   position: fixed;
@@ -31,10 +32,11 @@
   text-align: center;
   color: #333333;
   margin-top:8%;
+  font-family: "Nunito";
 }
 
 .map-title > h4:nth-child(2){
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 1.5rem;
@@ -59,11 +61,11 @@
 
 .pin-icon {
       font-size: 2rem;
-      color:#e95500;
+      color: #6200EE;
 }
     
 .pin-text {
       font-size: 1.3em;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Nunito";
       font-weight: 500;
 }
