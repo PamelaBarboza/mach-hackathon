@@ -21,8 +21,12 @@ import Header from "./components/header/Header";
 import BenefitsDetail from "./components/benefitsDetail/BenefitsDetail";
 import Benefits from "./components/benefits/Benefits";
 import HeaderTwo from "./components/headerTwo/HeaderTwo";
-import Watch from "./watch/Watch";
-
+import GoalsForm from "./components/goals/Goals";
+import SumaryGoals from "./components/summaryGoals/SumaryGoals";
+import MessageSuccess from "./components/messageSuccess/MessageSuccess";
+import Time from "./components/time/Time";
+/* import Watch from "./watch/Watch";
+ */
 function App() {
   return (
     <Router>
@@ -48,8 +52,21 @@ function App() {
             <HomeGoals />
           </Route>
           <Route path="/headerTwo" exact>
-            <Watch />
+           {/*  <Watch /> */}
             <HeaderTwo />
+            <GoalsForm />
+          </Route>
+          <Route path="/time" exact>
+            <HeaderTwo />
+            <Time />
+          </Route>
+          <Route path="/sumaryGoals" exact>
+            <HeaderTwo />
+            <SumaryGoals/>
+          </Route>
+          <Route path="/messageSuccess" exact>
+            <HeaderTwo />
+            <MessageSuccess/>
           </Route>
           <Route path="/benefitsDetail" exact>
             <BenefitsDetail />
