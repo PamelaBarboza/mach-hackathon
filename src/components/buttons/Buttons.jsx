@@ -1,11 +1,18 @@
 import React from "react";
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const Buttons = () => {
+
   return (
     <div>
-      <h1>AQUI VAN LOS BOTONES</h1>
+      <Router>
+        <a href='/ok'><button className="btn-ok" name='Listo'>Listo</button></a>
+        </Router>
     </div>
   );
-};
+}
 
 export default Buttons;
+
+
+

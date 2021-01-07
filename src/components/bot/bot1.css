@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
 .container-bot1{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #ffffff;
     align-items: center;
 }
 
@@ -9,7 +12,8 @@
 .container-bot1>svg{
     align-self: baseline;
     color: #6200EE;
-    font-size: 24px;
+    font-size: 34px;
+    margin: 3% 0 0 4%;
 }
 
 .container-bot1>div{
@@ -20,15 +24,17 @@
     font-size: 28px;
     line-height: 38px;
     color: #111111;
+    font-family: "Nunito";
 }
 
 .container-bot1>div>p{
     font-size: 16px;
     line-height: 22px;
     color: #5C5C5C;
+    font-family: "Nunito";
 }
 
-.container-bot1>img{
+.container-bot1>:nth-child(4){
     width: 245px;
     height: 256.5px;
 }
@@ -39,10 +45,11 @@
     border-radius: 10px;
     background: #6200EE;
     border: none;
-    margin: 28% 0 1% 0;
+    margin: 40% 0 1% 0;
     color: #F5EEFF;
     font-size: 20px;
     font-weight: 600;
+    font-family: "Nunito";
 }
 
 .container-bot1>hr{

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
 .container-benefits-detail{
     display: flex;
     flex-direction: column;
@@ -6,30 +8,41 @@
     position: fixed;
     top: 0;
     background: #ffffff;
+    z-index: 2
 }
 
-.container-benefits-detail>svg{
+.container-benefits-detail>:nth-child(1){
+    margin: 0;
+}
+
+.container-benefits-detail>:nth-child(2)>:nth-child(2){
+    font-family: "Nunito";
+    text-align: center;
+}
+
+.container-benefits-detail>div>svg{
     align-self: baseline;
     color: #6200EE;
     font-size: 24px;
 }
 
-.container-benefits-detail>:nth-child(3){
+.container-benefits-detail>:nth-child(2)>:nth-child(3){
     margin: 3% 9% 0 9%;
 }
 
-.container-benefits-detail>:nth-child(3)>div{
+.container-benefits-detail>:nth-child(2)>:nth-child(3)>div{
     margin-bottom: 7%;
 }
 
-.container-benefits-detail>:nth-child(3)>div>p{
+.container-benefits-detail>:nth-child(2)>:nth-child(3)>div>p{
     font-size: 14px;
     line-height: 19px;
     color: #111111;
     margin: 0;
+    font-family: "Nunito";
 }
 
-.container-benefits-detail>button{
+.container-benefits-detail>:nth-child(2)>a>button{
     width: 344px;
     height: 57px;
     border-radius: 10px;
@@ -38,5 +51,6 @@
     margin: 14% 0 1% 0;
     color: #F5EEFF;
     font-size: 20px;
+    font-family: "Nunito";
     font-weight: 600;
 }
