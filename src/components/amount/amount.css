@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
+.container-amount{
+    display: flex;
+    justify-content: center;
+}
 
 .container-goals1{
     display: flex;
@@ -16,6 +22,11 @@
     align-items:flex-start;
     padding-top: 40%;
 }
+.card-body{
+    height: 48px !important;
+    width: 102px !important;
+    font-size: 16px !important;
+}
 
 
 .button-amount>a>button{
@@ -31,24 +42,16 @@
 }
 
 
-.name-goals1{
-    
-    position: absolute;
+.name-goals1{  
     width: 193px;
     height: 61px;
     left: 22px;
     top: 256px;
-    
-    /* H2 */
-    
-    font-family: Nunito;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 27px;
-    
-    /* C-011 */
-    
     color: #333333;
 }
 
@@ -58,17 +61,11 @@ width: 193px;
 height: 19px;
 left: 16px;
 top: 314px;
-
-/* P1 */
-
-font-family: Nunito;
+font-family: "Nunito";
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 22px;
-
-/* C-010 */
-
 color: #999999;
 }
 
@@ -85,22 +82,14 @@ color: #999999;
 }
 
 .amount-text{
-    position: absolute;
     width: 193px;
     height: 61px;
-    left: 16px;
-    top: 256px;
-    
-    /* H2  */
-    font-family: Nunito;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 27px;
-    
-    /* C-011 */
     color: #333333;
-    
 }
 
 .amount {
