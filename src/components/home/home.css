@@ -27,7 +27,7 @@
 .machPointText {
   display: flex;
   justify-content: space-around;
-  padding-right: 60px;
+  padding-right: 130px;
 }
 
 .cuantity {
@@ -53,7 +53,11 @@
   font-size: 14px;
 }
 .machPng img{
-  width: 40px;
-  height: 40px;
+    width: 44px;
+    height: 45px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
 
