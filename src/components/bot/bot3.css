@@ -31,11 +31,11 @@
 }
 
 .container-bot3>:nth-child(4){
-    width: 245px;
-    height: 256.5px;
+    width: 255.74px;
+    height: 232px;
 }
 
-.container-bot3>button{
+.container-bot3>a>button{
     width: 344px;
     height: 57px;
     border-radius: 10px;

@@ -8,8 +8,6 @@ import {
  NavLink,  */
 } from "react-router-dom";
 
-/* import Bot from "./components/bot/Bot"; */
-/* import Buttons from "./components/buttons/Buttons"; */
 
 import Home from "./components/home/Home";
 import Wins from "./components/win/Wins";
@@ -25,8 +23,9 @@ import SumaryGoals from "./components/summaryGoals/SumaryGoals";
 import MessageSuccess from "./components/messageSuccess/MessageSuccess";
 import Time from "./components/time/Time";
 import Goals from "./components/goals/Goals";
-/* import Watch from "./watch/Watch";
- */
+import Watch from "./watch/Watch";
+import BenefitMovistar from "./components/benefits/BenefitMovistar";
+
 function App() {
   return (
     <Router>
@@ -68,7 +67,7 @@ function App() {
             <MessageSuccess/>
           </Route>
           <Route path="/benefitsDetail" exact>
-            <BenefitsDetail />
+            <BenefitMovistar />
           </Route>
           <Route path="/benefits" exact>
             <Benefits />
