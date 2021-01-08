@@ -1,21 +1,17 @@
-.success{
-    position: absolute;
-width: 281px;
-height: 76px;
-left: calc(50% - 281px/2 - 5px);
-top: calc(50% - 76px/2 - 173px);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
 
-/* H1 */
-
-font-family: Nunito;
+.container-success {
+display: flex;
+justify-content: center;
+font-family: "Nunito";
 font-style: normal;
 font-weight: bold;
-font-size: 28px;
-line-height: 38px;
 text-align: center;
-
-/* C-013 */
-
 color: #440099;
+}
+
+.machpoint {
+    display: flex;
+    justify-content: center;
 }
 

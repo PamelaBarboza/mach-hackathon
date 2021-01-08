@@ -1,33 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
 
-.container-amount{
+.amount-text{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44%;
+}
+
+.amount-text>h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+    font-family: "Nunito";
+}
+
+.amount>button{
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #525252;
+    width: 102px;
+    height: 48px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 36px 28px -12px rgba(73,80,87,.18);
     justify-content: center;
 }
 
-.container-goals1{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #ffffff;
-    align-items:flex-start;
-    padding-top: 40%;
+.amount>button:focus{
+    outline: none;
+    color: #6200EE;
 }
-
-.button-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #ffffff;
-    align-items:flex-start;
-    padding-top: 40%;
-}
-.card-body{
-    height: 48px !important;
-    width: 102px !important;
-    font-size: 16px !important;
-}
-
 
 .button-amount>a>button{
     width: 344px;
@@ -35,65 +45,26 @@
     border-radius: 10px;
     background: #6200EE;
     border: none;
-    margin: 28% 0 1% 0;
+    margin-top: 100%;
     color: #F5EEFF;
     font-size: 20px;
     font-weight: 600;
-}
-
-
-.name-goals1{  
-    width: 193px;
-    height: 61px;
-    left: 22px;
-    top: 256px;
     font-family: "Nunito";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 27px;
-    color: #333333;
-}
-
-.form-goals1{
-    position: absolute;
-width: 193px;
-height: 19px;
-left: 16px;
-top: 314px;
-font-family: "Nunito";
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #999999;
-}
-
-.button-goals1>a>button{
-    width: 344px;
-    height: 57px;
-    border-radius: 10px;
-    background: #6200EE;
-    border: none;
-    margin: 28% 0 1% 0;
-    color: #F5EEFF;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.amount-text{
-    width: 193px;
-    height: 61px;
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 27px;
-    color: #333333;
 }
 
 .amount {
     display: flex;
-    flex-direction: r;
-    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 6%;
 }
+
+hr{
+    height: 5px !important;
+    width: 134px;
+    background-color: #000000;
+    opacity: inherit;
+    border-radius: 100px;
+}
+
+
