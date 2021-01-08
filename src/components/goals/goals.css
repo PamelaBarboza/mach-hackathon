@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
 .container-goals1{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #ffffff;
     align-items:flex-start;
     padding-top: 40%;
+    background: #F6F6F6;
 }
+
 
 .button-container {
     display: flex;
@@ -30,45 +33,24 @@
 }
 
 
-.name-goals1{
-    
-    position: absolute;
-    width: 193px;
-    height: 61px;
-    left: 22px;
-    top: 256px;
-    
-    /* H2 */
-    
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
+.name-goals1{ 
+    font-family: "Nunito";;
     font-size: 20px;
     line-height: 27px;
-    
-    /* C-011 */
-    
     color: #333333;
 }
 
 .form-goals1{
-    position: absolute;
-width: 193px;
-height: 19px;
-left: 16px;
-top: 314px;
-
-/* P1 */
-
-font-family: Nunito;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-
-/* C-010 */
-
-color: #999999;
+    width: 193px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    border-bottom: 1px solid #999999;
+    border-top: none;
+    border-right: navajowhite;
+    border-left: none;
 }
 
 .button-goals1>a>button{
@@ -77,7 +59,7 @@ color: #999999;
     border-radius: 10px;
     background: #6200EE;
     border: none;
-    margin: 28% 0 1% 0;
+    margin: 107% 0 1% 0;
     color: #F5EEFF;
     font-size: 20px;
     font-weight: 600;
@@ -91,7 +73,7 @@ color: #999999;
     top: 256px;
     
     /* H2  */
-    font-family: Nunito;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -102,3 +84,30 @@ color: #999999;
     
 }
 
+.button-goals1{
+    width: 100%;
+    text-align: center;
+}
+
+.button-goals1>hr{
+    margin: 4% 31%;
+}
+
+.container-goals1>:nth-child(1){
+    width: 100%;
+    margin-left: 9%;
+}
+
+.container-goals1>:nth-child(1)>form{
+    width: 100%;
+}
+
+.container-goals1>:nth-child(1)>form>input{
+    width: 82%;
+    background: #F6F6F6;
+    margin-top: 5%;
+}
+
+.container-goals1>:nth-child(1)>form>input:focus{
+   outline: none;
+}

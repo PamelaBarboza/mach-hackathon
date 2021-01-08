@@ -1,17 +1,74 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
 
 .container-success {
-display: flex;
-justify-content: center;
-font-family: "Nunito";
-font-style: normal;
-font-weight: bold;
-text-align: center;
-color: #440099;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #440099;
+    align-items: center;
+    margin-top: 9%;
+}
+
+.container-success>svg{
+    align-self: baseline;
+    color: #6200EE;
+    font-size: 34px;
+    margin: 3% 0 0 4%;
 }
 
 .machpoint {
     display: flex;
     justify-content: center;
+}
+
+.machpoint>span{
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    color: #525252;
+}
+
+.container-success>h1{
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #440099;
+    margin: 7% 0 5% 0;
+}
+
+.container-success>p{
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #525252;
+}
+
+.container-success>img{
+    width: 247.34px;
+    height: 291.5px;
+}
+
+.container-button-success>button{
+    width: 344px;
+    height: 57px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #6200EE;
+    margin: 17% 0 1% 0;
+    color: #6200EE;
+    font-size: 20px;
+    font-weight: 600;
 }
 
