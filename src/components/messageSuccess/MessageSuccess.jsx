@@ -1,7 +1,7 @@
 import React from "react";
 import bot1 from "../../img/bot1.png";
 import { Link } from "react-router-dom";
-import "../messageSuccess/messageSuccess.css"
+import "../messageSuccess/messageSuccess.css";
 
 
 const MessageSuccess  = () => {
@@ -18,8 +18,8 @@ const MessageSuccess  = () => {
       <button>Siguiente Misión</button>
         </div>
       </Link>
-        </div>
-    )
-}
+    </div>
+  );
+};
 
 export default MessageSuccess;
