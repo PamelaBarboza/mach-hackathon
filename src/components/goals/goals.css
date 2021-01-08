@@ -11,30 +11,13 @@
 
 
 .button-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #ffffff;
-    align-items:flex-start;
-    padding-top: 40%;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
 }
-
-
-.button-goals1 >a>button{
-    width: 344px;
-    height: 57px;
-    border-radius: 10px;
-    background: #6200EE;
-    border: none;
-    margin: 28% 0 1% 0;
-    color: #F5EEFF;
-    font-size: 20px;
-    font-weight: 600;
-}
-
 
 .name-goals1{ 
-    font-family: "Nunito";;
+    font-family: "Nunito";
     font-size: 20px;
     line-height: 27px;
     color: #333333;
