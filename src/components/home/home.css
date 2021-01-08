@@ -61,3 +61,12 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 
+  .hrHome {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+    width: auto;
+    height: 1px !important;
+}

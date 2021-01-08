@@ -395,7 +395,7 @@ const Home = () => {
           </div>
         </div>{" "}
       </Link>
-      <hr />
+      <hr className="hrHome" />
       <div className="machPoint">
         <div className="machPng">
           <img src={LogoMach} alt="" />
@@ -439,7 +439,7 @@ const Home = () => {
           </svg>
         </div>
       </div>
-      <hr />
+      <hr className="hrHome" />
       <div className="machPoint">
         <div>
           <svg
@@ -492,7 +492,7 @@ const Home = () => {
           </svg>
         </div>
       </div>
-      <hr />
+      <hr className="hrHome" />
       <div className="machPoint">
         <div>
           <svg
@@ -545,7 +545,7 @@ const Home = () => {
           </svg>
         </div>
       </div>
-      <hr />
+      <hr className="hrHome" />
       <br />
       <br />
       <div>
