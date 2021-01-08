@@ -1,42 +1,60 @@
 import React from "react";
-import { Fragment } from "react";
-import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
-import "../amount/amount.css"
+import "./sumaryGoals.css";
+import coin from "../../img/coin.png";
 
-const SumaryGoals= () => {
-
+const SumaryGoals = () => {
   return (
-    <Fragment>
-      <div className='sumary'>
-         {/*  <hr className='firstLine' /> */}
-          <p>Tu monto mensual es</p>
-          <Card body>$100.000</Card>
+    <div className="container-sumary">
+      <div className="expected-goal">
+        <div> </div>
+        <div>
+          {" "}
+          <span>Meta esperada</span> <span>$600.000</span>{" "}
+        </div>
       </div>
-      <div className='sumary'>
-          <p>En 6 meses ahorrarás</p>
-          <Card body>$600.000</Card>
-      </div>
-      <div className='sumary'>
-          <p>Recibirás los siguientes machpoint mensuales</p>
-          <Card body>$100</Card>
-      </div>
-      <div className='sumary'>
-          <p>Si concluyes con tu misión de manera exitosa recibirás</p>
-          <Card body>$200</Card>
-      </div>
-      <div className='sumary'>
-          <p>Concuerdo con la propuesta.
-            Revisar terminos y condiciones</p>
-      </div>
-      <div className="button-amount">
-            <Link
-            to="/messageSuccess">
-                <button>Continuar</button>{" "}
-                </Link>
+      <div className="sumary">
+        <div>
+          <div>
+            <p>Tu monto mensual</p>
+            <p>Tiempo estimado</p>
+          </div>
+          <div>
+            <p>$100.000</p>
+            <p>6 meses</p>
+          </div>
+        </div>
+        <hr />
+        <h3>Bonus</h3>
+        <div>
+          <div>
+            <p>Machpoint mensual</p>
+            <p>Bono completitud</p>
+          </div>
+          <div>
+            <div className="container-coin">
+              <img src={coin} alt="img-coin" />
+              <p>100</p>
             </div>
-
-    </Fragment >
-  )
-}
+            <div className="container-coin">
+              <img src={coin} alt="img-coin" />
+              <p>200</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-check">
+        <input type="checkbox" />
+        <p>Concuerdo y acepto la propuesta</p>
+      </div>
+      <p>Términos y condiciones</p>
+      <div className="button-sumary">
+        <Link to="/messageSuccess">
+          <button>Continuar</button>{" "}
+        </Link>
+      </div>
+      <hr />
+    </div>
+  );
+};
 export default SumaryGoals;
