@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+.time-container {
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.time-text{
+    position: absolute;
+    width: 344px;
+    height: 61px;
+    left: 16px;
+    top: 256px;
+    
+    /* H2 */
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align:left;
+    
+    /* C-011 */
+    
+    color: #333333;
+}
+
+.time-card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80%;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* C-009 */
+    
+    color: #525252;
+}
+
+.time-button {
+    padding-top: 10%;
+background: #D8D8D8;
+border-radius: 10px;
+
+}
