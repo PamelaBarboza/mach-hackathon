@@ -21,7 +21,7 @@ const Goals = () => {
 
   return (
     <div className="container-goals1">
-      <div className="container-texto">
+      <div>
         <h2 className="name-goals1">Colócale un nombre</h2>
         <form onSubmit={saveData}>
           <input
@@ -29,29 +29,18 @@ const Goals = () => {
             type="text"
             placeholder="Ejemplo: Celular nuevo"
             onChange={(e) => setName(e.target.value)}
-          /> <hr/>
+          />
         </form>
       </div>
       <div className="button-goals1">
         <Link to="/amount">
           <button>Listo</button>{" "}
         </Link>
-      </div>
-      <div>
-        <svg
-          width="375"
-          height="34"
-          viewBox="0 0 375 34"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g opacity="0.9">
-            <rect x="121" y="19" width="134" height="5" rx="2.5" fill="black" />
-          </g>
-        </svg>
+        <hr />
       </div>
     </div>
   );
 };
 
 export default Goals;
+

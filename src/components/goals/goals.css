@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
 
-.container-goals1 {
-  display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-  flex-direction: column;
+.container-goals1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items:flex-start;
+    padding-top: 40%;
+    background: #F6F6F6;
 }
+
 
 .button-container {
   display: flex;
@@ -13,50 +16,81 @@
   flex-direction: column;
 }
 
-.name-goals1 {
-  width: 193px;
-  height: 61px;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 27px;
-  color: #333333;
+.name-goals1{ 
+    font-family: "Nunito";
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
 }
 
-.form-goals1 {
-  width: 193px;
-  height: 19px;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #999999;
-  border: 0;
+.form-goals1{
+    width: 193px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    border-bottom: 1px solid #999999;
+    border-top: none;
+    border-right: navajowhite;
+    border-left: none;
 }
 
-.button-goals1 > a > button {
-  width: 344px;
-  height: 57px;
-  border-radius: 10px;
-  background: #6200ee;
-  border: none;
-  color: #f5eeff;
-  font-size: 20px;
-  font-weight: 600;
+.button-goals1>a>button{
+    width: 344px;
+    height: 57px;
+    border-radius: 10px;
+    background: #6200EE;
+    border: none;
+    margin: 107% 0 1% 0;
+    color: #F5EEFF;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-.button-goals1 {
-  justify-content: center;
-  display: flex;
-  padding-top: 207px;
+.h2 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 16px;
+    top: 256px;
+    
+    /* H2  */
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    
+    /* C-011 */
+    color: #333333;
+    
 }
 
-.container-texto {
-  display: flex;
+.button-goals1{
+    width: 100%;
+    text-align: center;
+}
 
-  flex-direction: column;
+.button-goals1>hr{
+    margin: 4% 31%;
+}
 
-  padding: 150px 20px 150px;
+.container-goals1>:nth-child(1){
+    width: 100%;
+    margin-left: 9%;
+}
+
+.container-goals1>:nth-child(1)>form{
+    width: 100%;
+}
+
+.container-goals1>:nth-child(1)>form>input{
+    width: 82%;
+    background: #F6F6F6;
+    margin-top: 5%;
+}
+
+.container-goals1>:nth-child(1)>form>input:focus{
+   outline: none;
 }
