@@ -3,7 +3,6 @@ import "./home.css";
 import LogoMach from "../../img/mach.png";
 import { Link } from "react-router-dom";
 
-
 const Home = () => {
   return (
     <div>
@@ -346,7 +345,7 @@ const Home = () => {
           </svg>
         </div>
       </div>
-      <Link to="/">
+      <Link to="/bot1">
         <div className="machPoint">
           <div>
             <svg

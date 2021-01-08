@@ -1,41 +1,57 @@
 import React from "react";
-import "../header/header.css";
-import "../win/wins.css";
+import { Link } from "react-router-dom";
+import "../goals/goals.css";
 
+const Goals = () => {
+  const [name, setName] = React.useState("");
 
-    const Goals = () => {
-        const [name, setName] = React.useState('')
+  const saveData = (e) => {
+    e.preventDefault();
 
-        const saveData = (e) => {
-            e.preventDefault()
+    if (!name.trim()) {
+      console.log("Por Favor, ingresar datos requeridos");
+      return;
+    }
+    // Si ambos campos están correctos, procesamos los datos
 
-            if(!name.trim()){
-                console.log('Por Favor, ingresar datos requeridos')
-                return
-            }
-            // Si ambos campos están correctos, procesamos los datos
+    console.log("Procesando datos..." + name + " ");
+    e.target.reset();
+    setName("");
+  };
 
-            console.log('Procesando datos...'  +  name +  ' ')
-            e.target.reset()
-            setName('')
-        }
-
-        return (
-            <div>
-            <hr/>
-            <h2>Colócale un nombre</h2>
-            <form onSubmit={ saveData }>
-                <input
-                type="text"
-                placeholder="Ejemplo: Celular nuevo"
-                className="Form-control mb-2"
-                onChange={ (e) => setName(e.target.value) }
-                />
-               {/*  <button className="btn btn-primary btn-block" type="submit">Listo</button> */}
-            </form>
-            <button>Listo</button>
-        </div>
-    );
-}
+  return (
+    <div className="container-goals1">
+      <div className="container-texto">
+        <h2 className="name-goals1">Colócale un nombre</h2>
+        <form onSubmit={saveData}>
+          <input
+            className="form-goals1"
+            type="text"
+            placeholder="Ejemplo: Celular nuevo"
+            onChange={(e) => setName(e.target.value)}
+          /> <hr/>
+        </form>
+      </div>
+      <div className="button-goals1">
+        <Link to="/amount">
+          <button>Listo</button>{" "}
+        </Link>
+      </div>
+      <div>
+        <svg
+          width="375"
+          height="34"
+          viewBox="0 0 375 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g opacity="0.9">
+            <rect x="121" y="19" width="134" height="5" rx="2.5" fill="black" />
+          </g>
+        </svg>
+      </div>
+    </div>
+  );
+};
 
 export default Goals;

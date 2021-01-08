@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
 .container-benefits-detail{
     display: flex;
     flex-direction: column;
@@ -14,6 +16,7 @@
 }
 
 .container-benefits-detail>:nth-child(2)>:nth-child(2){
+    font-family: "Nunito";
     text-align: center;
 }
 
@@ -36,6 +39,7 @@
     line-height: 19px;
     color: #111111;
     margin: 0;
+    font-family: "Nunito";
 }
 
 .container-benefits-detail>:nth-child(2)>a>button{
@@ -47,5 +51,6 @@
     margin: 14% 0 1% 0;
     color: #F5EEFF;
     font-size: 20px;
+    font-family: "Nunito";
     font-weight: 600;
 }

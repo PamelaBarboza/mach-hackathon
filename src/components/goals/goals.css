@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
+.container-goals1 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.name-goals1 {
+  width: 193px;
+  height: 61px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.form-goals1 {
+  width: 193px;
+  height: 19px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  border: 0;
+}
+
+.button-goals1 > a > button {
+  width: 344px;
+  height: 57px;
+  border-radius: 10px;
+  background: #6200ee;
+  border: none;
+  color: #f5eeff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-goals1 {
+  justify-content: center;
+  display: flex;
+  padding-top: 207px;
+}
+
+.container-texto {
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 150px 20px 150px;
+}

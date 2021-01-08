@@ -6,7 +6,6 @@ import {
   Route,
 } from "react-router-dom";
 
-
 import Home from "./components/home/Home";
 import Wins from "./components/win/Wins";
 import HomeGoals from "./components/homeGoals/HomeGoals";
@@ -23,6 +22,9 @@ import Goals from "./components/goals/Goals";
 import Missions from "./components/missions/Missions";
 import Achievements from "./components/achievements/Achievements";
 import BenefitMovistar from "./components/benefits/BenefitMovistar";
+
+import Amount from "./components/amount/Amount"
+
 import NextMission from "./components/nextMission/NextMission";
 import AchievementsAdd from "./components/achievementsAdd/AchievementsAdd";
 
@@ -32,6 +34,10 @@ function App() {
       <div>
         <Switch>
           <Route path="/" exact>
+            <Header />
+            <Home />
+          </Route>
+          <Route path="/bot1" exact>
             <Bot1 />
           </Route>
           <Route path="/bot2" exact>
@@ -53,6 +59,10 @@ function App() {
           <Route path="/goals" exact>
             <HeaderTwo />
             <Goals />
+          </Route>
+          <Route path="/amount" exact>
+            <HeaderTwo />
+            <Amount />
           </Route>
           <Route path="/time" exact>
             <HeaderTwo />

@@ -1,0 +1,27 @@
+.success{
+position: absolute;
+width: 281px;
+height: 76px;
+left: calc(50% - 281px/2 - 5px);
+top: calc(50% - 76px/2 - 173px);
+font-family: "Nunito";
+font-style: normal;
+text-align: center;
+
+
+color: #440099;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.success p{
+    font-size: 16px;
+    font-style: normal;
+}
+
+.container-mision{
+        display: flex;
+    padding-top: 122px;
+}

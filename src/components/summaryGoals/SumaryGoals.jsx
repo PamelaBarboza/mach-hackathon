@@ -1,6 +1,8 @@
 import React from "react";
 import { Fragment } from "react";
 import Card from 'react-bootstrap/Card';
+import { Link } from "react-router-dom";
+import "../amount/amount.css"
 
 const SumaryGoals= () => {
 
@@ -27,7 +29,13 @@ const SumaryGoals= () => {
           <p>Concuerdo con la propuesta.
             Revisar terminos y condiciones</p>
       </div>
-      <button>Acepto la Misión</button>
+      <div className="button-amount">
+            <Link
+            to="/messageSuccess">
+                <button>Continuar</button>{" "}
+                </Link>
+            </div>
+
     </Fragment >
   )
 }

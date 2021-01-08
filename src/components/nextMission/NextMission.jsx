@@ -342,7 +342,7 @@ const NextMission = () => {
             </svg>
           </div>
           <div>
-            <p>33.345</p>
+            <p>1510</p>
             <p className="textocoint">Tus Machpoints</p>
           </div>
         </div>
